@@ -1,0 +1,3 @@
+\ProvidesFile{ot1kalam.fd}
+\DeclareFontFamily{OT1}{kalam}{}
+\DeclareFontShape{OT1}{kalam}{m}{n}{ <-> kalam}{}
