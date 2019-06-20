@@ -6,8 +6,8 @@ import copy, math
 from pyx import *
 
 # Configure the size of the Glow Forge's bed
-bedWidth = 11
-bedHeight = 19.5
+bedWidth = 19.5
+bedHeight = 11
 #bedWidth = 7.5
 #bedHeight = 10.5
 
@@ -132,8 +132,9 @@ for label in labels:
     c.stroke(p, [color.rgb.red])
     # Draw the decorative frame in a different color
     p = copy.deepcopy(p)
-    p.append(path.arc(width/2 + sx, width/2 + sy, width*inner/2, -90, 270))
-    c.fill(p, [style.fillrule.even_odd, col])
+    p.append(path.moveto(width/2 + sx, width*(1-inner)/2 + sy))
+    p.append(path.arcn(width/2 + sx, width/2 + sy, width*inner/2, -90, 270))
+    c.fill(p, [col])
     # Advance to the next position in the SVG file
     ex = (ex + 1) % nx
     sx += gap + width
