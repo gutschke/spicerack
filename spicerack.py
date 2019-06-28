@@ -6,8 +6,8 @@ import copy, math
 from pyx import *
 
 # Configure the size of the Glow Forge's bed
-bedWidth = 19.5
-bedHeight = 11
+bedWidth = 19
+bedHeight = 10.5
 #bedWidth = 7.5
 #bedHeight = 10.5
 
