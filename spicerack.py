@@ -2,6 +2,10 @@
 
 # http://www.tug.org/TUGboat/Articles/tb27-1/tb86kroonenberg-fonts.pdf
 
+# 1/8" Bamboo plywood from Inventables
+# Engrave: 700/30
+# Cut: 200/Full
+
 import copy, math
 from pyx import *
 
@@ -52,9 +56,12 @@ labels = [
     "Cream Of\nTartar", "Tarragon", "Thyme", "Tumeric", "Urfa Biber\nPowder",
     "Vanilla\nBeans", "Xanthan\nGum", "", "", "", "", "", "", "", "", "",
     "", "", "", "",
+    "Long\nPepper", "Nigella\nSeeds", "Fennel\nPollen", "Aleppo\nPepper",
+    "Annatto", "Grains Of\nParadise", "Ajwain\nSeeds", "Shichi-mi\nT\=ogarashi",
+    "Tangerine\nPeel", "Nori\nFlakes", "Tajin\nCl\\'asico", "Tony\nChachere's",
     1.61,
-    "Sodium\nCarbonate", "Potassium\nSorbate",
-    "", "", "", "", "", "", "", "",
+    "Sodium\nCarbonate", "Potassium\nSorbate", "Blackening\nSpice",
+    "Five\nSpice", "Garam\nMasala", "", "", "", "", "",
     "", "", "", "", "", "", "", "",
     "", "", "", "", "", "", "", "",
 ]
